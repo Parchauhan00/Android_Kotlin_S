@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IOS_Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOS Development"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="A Fragment in Android Studio is a modular, reusable portion of a user interface (UI) that you can embed within an Activity. Fragments allow you to create dynamic and flexible UIs that can adapt to various screen sizes and orientations. They can also be reused across different activities.
+
+Key Characteristics of a Fragment:
+Lifecycle
+A Fragment has its own lifecycle, which is closely tied to the lifecycle of its host Activity. However, it introduces additional lifecycle states specific to fragments.
+
+Common lifecycle methods include:
+
+onAttach(): When the fragment is attached to the activity.
+onCreateView(): To create and inflate the fragment's layout.
+onViewCreated(): After the view has been created.
+onStart(), onResume(), onPause(), onStop(): Similar to an Activity's lifecycle methods.
+onDetach(): When the fragment is detached from the activity.
+Independent UI Components
+Fragments allow multiple views and UI components to coexist within a single activity. For example, you can have a fragment for navigation, another for content display, and so on.
+
+Flexible UI Design
+Fragments help in building responsive designs. For example:
+
+In tablets, you can display two fragments side by side in a single activity.
+In phones, you can display the same fragments sequentially in different activities.
+FragmentManager
+Fragments are managed by a FragmentManager, which provides methods to add, replace, remove, and interact with fragments at runtime."/>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".APP_Dev_Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="App Devlopment" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:layout_margin="10dp"
+                android:textSize="18dp"
+                android:text="App development, or application development, refers to the process of creating software applications that run on various platforms, such as mobile devices, desktops, or the web. It involves the design, development, testing, and deployment of an application. App development can target multiple devices like smartphones, tablets, desktops, or wearables, and is typically categorized into three main types:
+
+1. Mobile App Development
+Platforms: iOS (Apple), Android (Google), or cross-platform (both).
+Languages/Frameworks:
+Native: Swift or Objective-C for iOS, Kotlin or Java for Android.
+Cross-Platform: Flutter, React Native, Xamarin, etc.
+Examples: WhatsApp, Instagram, Uber.
+App development is the process of creating software applications for various platforms like mobile devices, desktops, or the web. It involves several key steps:
+
+Planning: Defining the purpose, features, and target audience for the app.
+Design: Creating the app's user interface (UI) and ensuring a good user experience (UX).
+Development: Writing the code and building both the frontend (user side) and backend (server side).
+Testing: Ensuring the app is free of bugs and performs well on different devices.
+Deployment: Launching the app on platforms like app stores or web servers.
+Maintenance: Updating the app regularly to fix bugs and add new features.
+Types of Apps:
+Mobile Apps: For iOS, Android, or cross-platform (e.g., Flutter, React Native).
+Web Apps: Accessed via browsers (e.g., Facebook, Google Docs).
+Desktop Apps: Installed on computers (e.g., Microsoft Word, Photoshop).
+In essence, app development involves creating, testing, and releasing an app that solves a problem or provides a service to users."
+
+
+
+                />
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-Learning"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="20dp"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/appDev1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+
+            app:cardCornerRadius="100dp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App Dev"
+                android:textSize="22dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="100dp"
+            android:id="@+id/webDev1"
+            >
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Dev"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                app:cardCornerRadius="100dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="20dp"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="100dp"
+            android:id="@+id/iosDev1"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ios Dev"
+                android:textSize="22dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="100dp"
+            >
+
+            <TextView
+                android:id="@+id/ml1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ML"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="20dp"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="100dp"
+            >
+            <TextView
+                android:id="@+id/blockChain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Block Chain"
+                android:textSize="22dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="100dp"
+
+            >
+
+            <TextView
+                android:id="@+id/Cloud1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cloud"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/support1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Support"
+        android:backgroundTint="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+</LinearLayout>

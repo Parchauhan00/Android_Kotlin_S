@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+     android:layout_margin="9dp"
+    android:id="@+id/cardItem"
+
+    >
+    
+    <LinearLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/headingImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img5"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/softcorner"
+            >
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <TextView
+            android:id="@+id/headingtitle"
+            android:layout_width="254dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:text="A mob ransacked and set fire to two police check points on Friday to protest the killing of nearly 50 people by militants in the restive province in northwest "
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            >
+
+
+        </TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="Introduction
+Python is a modern general-purpose programming language suitable for various development and scripting tasks. Pip is a package installer for Python that allows you to install and manage additional libraries that are not part of the standard Python library on a server.
+
+This article explains how to install Python and Pip on an Ubuntu 24.04 server and manage application processes on your server. You will install the latest Python version using a PPA, manage multiple versions and use the Python virtual environment package virtualenv to create isolated development environments.
+
+Prerequisites
+Before you begin:
+
+Deploy an Ubuntu 24.04 server instance on Vultr.
+
+Access the server using SSH as a non-root user with sudo privileges.
+
+Update the server.
+
+Install Python
+Python is available in the default APT repositories on Ubuntu 24.04 but may not be the latest version. Personal Package Archives (PPAs) enable the installation of custom application packages on a server, and you can use the deadsnakes PPA to install the latest or specific Python version on your server. Follow the steps below to install the latest Python version using the PPA.
+Access the server using SSH as a non-root user with sudo privileges.
+
+Update the server.
+
+Install Python
+Python is available in the default APT repositories on Ubuntu 24.04 but may not be the latest version. Personal Package Archives (PPAs) enable the installation of custom application packages on a server, and you can use the deadsnakes PPA to install the latest or specific Python version on your server. Follow the steps below to install the latest Python version using the PPA.
+
+"
+        />
+    </ScrollView>
+
+
+
+
+</LinearLayout>

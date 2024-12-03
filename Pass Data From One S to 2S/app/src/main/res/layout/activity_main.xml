@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+
+
+        >
+
+
+        <EditText
+            android:id="@+id/ord1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Order 1"
+            android:layout_marginTop="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/ord2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Order 2"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/ord3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Order 3"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+           />
+
+        <EditText
+            android:id="@+id/ord4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Order 4"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+             />
+
+        <Button
+            android:id="@+id/submtbtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Order Now"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Web_Dev_Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Devlopment"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="Web development refers to the process of creating, building, and maintaining websites or web applications that are accessed through the internet. It encompasses several aspects, from designing the visual layout of the site to developing the functionality that powers the website or app.
+
+Key Aspects of Web Development:
+Frontend Development (Client-Side):
+
+Focuses on the parts of a website that users interact with directly (the user interface).
+Uses technologies like HTML (structure), CSS (style), and JavaScript (interactivity).
+Common frameworks: React, Angular, Vue.js.
+Backend Development (Server-Side):
+
+Involves the behind-the-scenes code that powers the website, processes data, and interacts with databases.
+Uses server-side languages like Node.js, Python, Ruby, PHP, Java, and frameworks like Django, Express.js, or Laravel.
+Manages data, business logic, and security.
+Database Management:
+
+Handles the storage, retrieval, and management of data for the web application.
+Common databases: MySQL, PostgreSQL, MongoDB.
+Full-Stack Development:
+
+Refers to developers who work on both the frontend and backend of a website or app.
+Combines both client-side and server-side programming.
+Steps in Web Development:
+Planning:
+
+Define the website’s goals, target audience, and required features.
+Design:
+
+Create wireframes and design the website’s layout, user interface (UI), and user experience (UX).
+Development:
+
+Frontend: Code the website’s structure, style, and interactivity.
+Backend: Write server-side code to manage data and perform operations.
+Connect the frontend and backend with APIs (Application Programming Interfaces).
+Testing:
+
+Ensure the site works on different browsers, devices, and screen sizes (responsive design).
+Test for bugs, security issues, and performance.
+Deployment:
+
+Publish the website on a server (using hosting services like AWS, Azure, or shared hosting).
+Maintenance:
+
+Update the site regularly to fix bugs, improve performance, and add new features.
+Types of Websites:
+Static Websites: Simple sites with fixed content (e.g., portfolios).
+Dynamic Websites: Interactive sites that change based on user input or data (e.g., Facebook, e-commerce sites).
+Web Applications: Complex applications that run in the browser (e.g., Gmail, Google Docs).
+In summary, web development covers everything from designing how a website looks to ensuring it runs smoothly on the internet, allowing users to interact with it seamlessly" />
+    </ScrollView>
+
+
+</LinearLayout>
