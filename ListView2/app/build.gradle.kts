@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.listview"
-    compileSdk = 35
+    namespace = "com.example.day22project2"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.listview"
+        applicationId = "com.example.day22project2"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
